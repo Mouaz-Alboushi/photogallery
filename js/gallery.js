@@ -18,7 +18,7 @@ function upDate(previewPic) {
     let activeImage = null;
 
     images.forEach(image => {
-      image.addEventListener('click', function(event) {
+      image.addEventListener('focus', function(event) {
         // منع الحدث من الفقاعة حتى لا يصل إلى المستمع الوثائقي
         event.stopPropagation();
 
